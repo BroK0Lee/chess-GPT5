@@ -1,6 +1,7 @@
-import React from 'react'
-import ChessApp from './ChessApp'
+import React from "react";
+// import ChessApp from "./ChessApp"; // 2D
+import Chess3D from "./Chess3D";      // 3D
 
 export default function App() {
-  return <ChessApp />
+  return <Chess3D />;
 }
